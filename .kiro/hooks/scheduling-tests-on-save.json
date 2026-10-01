@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Verify Scheduling Logic on Save",
+      "trigger": "PostFileSave",
+      "matcher": "^src/lib/scheduling\\.ts$",
+      "action": {
+        "type": "command",
+        "command": "npm test 2>&1"
+      }
+    }
+  ]
+}

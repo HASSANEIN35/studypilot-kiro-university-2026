@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "studypilot-quality",
+  "version": "1.0.0",
+  "description": "Reusable quality-review guidance for deterministic study scheduling, test verification, and scope control.",
+  "author": {
+    "name": "StudyPilot"
+  },
+  "keywords": [
+    "studypilot",
+    "scheduling",
+    "deterministic",
+    "quality",
+    "property testing",
+    "study planner",
+    "review"
+  ]
+}
